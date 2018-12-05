@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B9004084844E46A9671C58EC5A2DE36 /* iOSMultiChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A40D82F67F6C8F0166582D8314B7DB26 /* iOSMultiChat-dummy.m */; };
+		5F480FF991EAD99AEE710B478D0628E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		7FC2459A88E687B12EAA4D6A03B31B63 /* Pods-iOSMultiChat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA31C6C3D34CC6244F4998AC960BBD63 /* Pods-iOSMultiChat_Tests-dummy.m */; };
+		8CFC61CF41DAFB338D902C4304D8A493 /* iOSMultiChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB9C888A51E1D15D8FE653FC0D09171 /* iOSMultiChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9531D4F2D3E5F52AD9CF85BEE1A729CD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3FF0F1E4CABC3E015183362767AE1 /* ReplaceMe.swift */; };
+		9610939A41D3A4746F7059BD637EDEBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		AFF9BE52B930BE0F388D3369DB829926 /* Pods-iOSMultiChat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8DAA12AE2DDA301960EF71951D65B6 /* Pods-iOSMultiChat_Example-dummy.m */; };
+		B24159F5B2CBE68C97662AC4206DA8FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		BF6D87D6BA06A6CA64C628AF500B20AD /* Pods-iOSMultiChat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD272B7A9D3BABE0B01F42BFD600027 /* Pods-iOSMultiChat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD75C41796CA1EBF5802AEA388448880 /* Pods-iOSMultiChat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD888C58401C4DBB1BEFE32D8B3684F /* Pods-iOSMultiChat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E8858ED2DFB4C5FF9D9D1FA7635879E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 440452F3940E2812A3AEDC484FD90023;
+			remoteInfo = iOSMultiChat;
+		};
+		C4FA6B1A17C7301D5AAE1F236C521545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB110DA3B3F0B24ACF3ED15B067C0C9;
+			remoteInfo = "Pods-iOSMultiChat_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CD888C58401C4DBB1BEFE32D8B3684F /* Pods-iOSMultiChat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSMultiChat_Example-umbrella.h"; sourceTree = "<group>"; };
+		2C178048DA44D7766E1D67BAE0575EEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3173D26E5A954159B8241740CB4C99DE /* Pods-iOSMultiChat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSMultiChat_Example.modulemap"; sourceTree = "<group>"; };
+		3ABEEED45F1949B9C072DF1B49D4E5E4 /* Pods-iOSMultiChat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSMultiChat_Tests.modulemap"; sourceTree = "<group>"; };
+		3ED7A06B1B87261F3E224FEEB56E648E /* Pods-iOSMultiChat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSMultiChat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47B1994317D76914CD4ECDF75E2CF9BB /* iOSMultiChat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSMultiChat-prefix.pch"; sourceTree = "<group>"; };
+		490A81829868E96B67BF2E6D16A4D9DA /* Pods-iOSMultiChat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSMultiChat_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5E32C9D982304C5958589C7F0AB51BE9 /* Pods-iOSMultiChat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSMultiChat_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6A09BB2D04C7C6373EC3A3EEB2D7A94F /* Pods-iOSMultiChat_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSMultiChat_Example-Info.plist"; sourceTree = "<group>"; };
+		6F8D9FD73CBF1E056718ECC8B873E8D1 /* Pods_iOSMultiChat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSMultiChat_Example.framework; path = "Pods-iOSMultiChat_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72768B627B3D7BC854BA1F0AEE227A3A /* iOSMultiChat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSMultiChat.xcconfig; sourceTree = "<group>"; };
+		76A95417F788EBB40F3FAD71B7B1C233 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7D8D4EBE7B207CFF72C9B6EF215DF962 /* Pods-iOSMultiChat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSMultiChat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9774748C78C3024C8BB764A4358430F1 /* Pods-iOSMultiChat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSMultiChat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B9279FD302718EAD1B2F20706A201A6 /* iOSMultiChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSMultiChat.framework; path = iOSMultiChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40D82F67F6C8F0166582D8314B7DB26 /* iOSMultiChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSMultiChat-dummy.m"; sourceTree = "<group>"; };
+		ABD272B7A9D3BABE0B01F42BFD600027 /* Pods-iOSMultiChat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSMultiChat_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AF4C7B3C548535C975E3A5D748052878 /* Pods-iOSMultiChat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSMultiChat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B078DFAF31284150ECC46D72B0E645C9 /* iOSMultiChat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSMultiChat-Info.plist"; sourceTree = "<group>"; };
+		B34164CE240ECFC18D68582C29CDFF14 /* Pods-iOSMultiChat_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSMultiChat_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC8DAA12AE2DDA301960EF71951D65B6 /* Pods-iOSMultiChat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSMultiChat_Example-dummy.m"; sourceTree = "<group>"; };
+		BDB3FF0F1E4CABC3E015183362767AE1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = iOSMultiChat/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D62821DC69E35EE1325FDBCD66F37C86 /* Pods-iOSMultiChat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSMultiChat_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA31C6C3D34CC6244F4998AC960BBD63 /* Pods-iOSMultiChat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSMultiChat_Tests-dummy.m"; sourceTree = "<group>"; };
+		DDB9C888A51E1D15D8FE653FC0D09171 /* iOSMultiChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSMultiChat-umbrella.h"; sourceTree = "<group>"; };
+		ED88353205E742289329FDD4E55C31CA /* iOSMultiChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSMultiChat.modulemap; sourceTree = "<group>"; };
+		F6F311E8662945AB2E765A9497B96D5D /* iOSMultiChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = iOSMultiChat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F7B6DDE924F3174E5DB7BFB1B666777C /* Pods_iOSMultiChat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSMultiChat_Tests.framework; path = "Pods-iOSMultiChat_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F80EB42C6E86EFA21C5CF567DBF2A5 /* Pods-iOSMultiChat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSMultiChat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC8E1FFE2F809EC004CA90DAE057D7A2 /* Pods-iOSMultiChat_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSMultiChat_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F097A353EF9325A64AB5227FB9AFADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24159F5B2CBE68C97662AC4206DA8FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77D12913AC76E6174983015DF7AA351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F480FF991EAD99AEE710B478D0628E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94CD36E695C6017980B680934794CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9610939A41D3A4746F7059BD637EDEBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CCA5CD3C8CA743D59731CAB68CBCC6 /* Pods-iOSMultiChat_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3173D26E5A954159B8241740CB4C99DE /* Pods-iOSMultiChat_Example.modulemap */,
+				7D8D4EBE7B207CFF72C9B6EF215DF962 /* Pods-iOSMultiChat_Example-acknowledgements.markdown */,
+				F9F80EB42C6E86EFA21C5CF567DBF2A5 /* Pods-iOSMultiChat_Example-acknowledgements.plist */,
+				BC8DAA12AE2DDA301960EF71951D65B6 /* Pods-iOSMultiChat_Example-dummy.m */,
+				B34164CE240ECFC18D68582C29CDFF14 /* Pods-iOSMultiChat_Example-frameworks.sh */,
+				6A09BB2D04C7C6373EC3A3EEB2D7A94F /* Pods-iOSMultiChat_Example-Info.plist */,
+				1CD888C58401C4DBB1BEFE32D8B3684F /* Pods-iOSMultiChat_Example-umbrella.h */,
+				5E32C9D982304C5958589C7F0AB51BE9 /* Pods-iOSMultiChat_Example.debug.xcconfig */,
+				D62821DC69E35EE1325FDBCD66F37C86 /* Pods-iOSMultiChat_Example.release.xcconfig */,
+			);
+			name = "Pods-iOSMultiChat_Example";
+			path = "Target Support Files/Pods-iOSMultiChat_Example";
+			sourceTree = "<group>";
+		};
+		33CF89D6847F19AFD88E1142AA18C335 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED88353205E742289329FDD4E55C31CA /* iOSMultiChat.modulemap */,
+				72768B627B3D7BC854BA1F0AEE227A3A /* iOSMultiChat.xcconfig */,
+				A40D82F67F6C8F0166582D8314B7DB26 /* iOSMultiChat-dummy.m */,
+				B078DFAF31284150ECC46D72B0E645C9 /* iOSMultiChat-Info.plist */,
+				47B1994317D76914CD4ECDF75E2CF9BB /* iOSMultiChat-prefix.pch */,
+				DDB9C888A51E1D15D8FE653FC0D09171 /* iOSMultiChat-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/iOSMultiChat";
+			sourceTree = "<group>";
+		};
+		3B10C7567444B351F6D03623178C457A /* Pods-iOSMultiChat_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3ABEEED45F1949B9C072DF1B49D4E5E4 /* Pods-iOSMultiChat_Tests.modulemap */,
+				3ED7A06B1B87261F3E224FEEB56E648E /* Pods-iOSMultiChat_Tests-acknowledgements.markdown */,
+				9774748C78C3024C8BB764A4358430F1 /* Pods-iOSMultiChat_Tests-acknowledgements.plist */,
+				DA31C6C3D34CC6244F4998AC960BBD63 /* Pods-iOSMultiChat_Tests-dummy.m */,
+				FC8E1FFE2F809EC004CA90DAE057D7A2 /* Pods-iOSMultiChat_Tests-Info.plist */,
+				ABD272B7A9D3BABE0B01F42BFD600027 /* Pods-iOSMultiChat_Tests-umbrella.h */,
+				AF4C7B3C548535C975E3A5D748052878 /* Pods-iOSMultiChat_Tests.debug.xcconfig */,
+				490A81829868E96B67BF2E6D16A4D9DA /* Pods-iOSMultiChat_Tests.release.xcconfig */,
+			);
+			name = "Pods-iOSMultiChat_Tests";
+			path = "Target Support Files/Pods-iOSMultiChat_Tests";
+			sourceTree = "<group>";
+		};
+		40CBA414F4ECD88D7096A608E2232A41 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F6F311E8662945AB2E765A9497B96D5D /* iOSMultiChat.podspec */,
+				2C178048DA44D7766E1D67BAE0575EEC /* LICENSE */,
+				76A95417F788EBB40F3FAD71B7B1C233 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4BB30BDB2B10D10AF79137AF8FCEF57F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC437342361BEA47EEAE90FC4B6737FA /* iOSMultiChat */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				4BB30BDB2B10D10AF79137AF8FCEF57F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				964D7794D4DDFC6148D39F1F26AFDBC7 /* Products */,
+				EBCBA6AA9AFD78F7EBDA65A1A6C47563 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		964D7794D4DDFC6148D39F1F26AFDBC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B9279FD302718EAD1B2F20706A201A6 /* iOSMultiChat.framework */,
+				6F8D9FD73CBF1E056718ECC8B873E8D1 /* Pods_iOSMultiChat_Example.framework */,
+				F7B6DDE924F3174E5DB7BFB1B666777C /* Pods_iOSMultiChat_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBCBA6AA9AFD78F7EBDA65A1A6C47563 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CCA5CD3C8CA743D59731CAB68CBCC6 /* Pods-iOSMultiChat_Example */,
+				3B10C7567444B351F6D03623178C457A /* Pods-iOSMultiChat_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FC437342361BEA47EEAE90FC4B6737FA /* iOSMultiChat */ = {
+			isa = PBXGroup;
+			children = (
+				BDB3FF0F1E4CABC3E015183362767AE1 /* ReplaceMe.swift */,
+				40CBA414F4ECD88D7096A608E2232A41 /* Pod */,
+				33CF89D6847F19AFD88E1142AA18C335 /* Support Files */,
+			);
+			name = iOSMultiChat;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8AE006F1F78374D60C86E1719E447699 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD75C41796CA1EBF5802AEA388448880 /* Pods-iOSMultiChat_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F791B0FF87AFC4924F798C494593DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFC61CF41DAFB338D902C4304D8A493 /* iOSMultiChat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F533D70F2DA938FB5421133DC4A3F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6D87D6BA06A6CA64C628AF500B20AD /* Pods-iOSMultiChat_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B182A5BBF8B37364623E4BE6C0DD107 /* Pods-iOSMultiChat_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5FA62CA16987DDD1260CC1ED20C14D /* Build configuration list for PBXNativeTarget "Pods-iOSMultiChat_Tests" */;
+			buildPhases = (
+				B7F533D70F2DA938FB5421133DC4A3F8 /* Headers */,
+				092BE6802973431E43B31BF489ADA9BB /* Sources */,
+				F94CD36E695C6017980B680934794CBB /* Frameworks */,
+				49FCB065BA551E2B5CCED9EE2A7830AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEBC3AE5EF61860DEC62ECF6CC7EB63D /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSMultiChat_Tests";
+			productName = "Pods-iOSMultiChat_Tests";
+			productReference = F7B6DDE924F3174E5DB7BFB1B666777C /* Pods_iOSMultiChat_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		440452F3940E2812A3AEDC484FD90023 /* iOSMultiChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F77533DEEC7284E98D623ABF16A07F /* Build configuration list for PBXNativeTarget "iOSMultiChat" */;
+			buildPhases = (
+				A6F791B0FF87AFC4924F798C494593DD /* Headers */,
+				711B6AAC97D26A5D942C4B1AEB39F7E5 /* Sources */,
+				A77D12913AC76E6174983015DF7AA351 /* Frameworks */,
+				1A661CDD784CC40E59DDAEF074B3FB1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSMultiChat;
+			productName = iOSMultiChat;
+			productReference = 9B9279FD302718EAD1B2F20706A201A6 /* iOSMultiChat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBB110DA3B3F0B24ACF3ED15B067C0C9 /* Pods-iOSMultiChat_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC846D46588DB70896BA4CAD87AD6AEC /* Build configuration list for PBXNativeTarget "Pods-iOSMultiChat_Example" */;
+			buildPhases = (
+				8AE006F1F78374D60C86E1719E447699 /* Headers */,
+				BDD99BFB8781F42E8046EACFB26C931A /* Sources */,
+				8F097A353EF9325A64AB5227FB9AFADF /* Frameworks */,
+				86D7D2A3831EF0E377F4B45193E603F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4331B0084BB83BFC7B55AF5C3EF498 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSMultiChat_Example";
+			productName = "Pods-iOSMultiChat_Example";
+			productReference = 6F8D9FD73CBF1E056718ECC8B873E8D1 /* Pods_iOSMultiChat_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 964D7794D4DDFC6148D39F1F26AFDBC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				440452F3940E2812A3AEDC484FD90023 /* iOSMultiChat */,
+				BBB110DA3B3F0B24ACF3ED15B067C0C9 /* Pods-iOSMultiChat_Example */,
+				1B182A5BBF8B37364623E4BE6C0DD107 /* Pods-iOSMultiChat_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A661CDD784CC40E59DDAEF074B3FB1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FCB065BA551E2B5CCED9EE2A7830AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D7D2A3831EF0E377F4B45193E603F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		092BE6802973431E43B31BF489ADA9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC2459A88E687B12EAA4D6A03B31B63 /* Pods-iOSMultiChat_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711B6AAC97D26A5D942C4B1AEB39F7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9004084844E46A9671C58EC5A2DE36 /* iOSMultiChat-dummy.m in Sources */,
+				9531D4F2D3E5F52AD9CF85BEE1A729CD /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD99BFB8781F42E8046EACFB26C931A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF9BE52B930BE0F388D3369DB829926 /* Pods-iOSMultiChat_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEBC3AE5EF61860DEC62ECF6CC7EB63D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iOSMultiChat_Example";
+			target = BBB110DA3B3F0B24ACF3ED15B067C0C9 /* Pods-iOSMultiChat_Example */;
+			targetProxy = C4FA6B1A17C7301D5AAE1F236C521545 /* PBXContainerItemProxy */;
+		};
+		CC4331B0084BB83BFC7B55AF5C3EF498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSMultiChat;
+			target = 440452F3940E2812A3AEDC484FD90023 /* iOSMultiChat */;
+			targetProxy = 9E8858ED2DFB4C5FF9D9D1FA7635879E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		289483896F371E92D2BB37DC5B27A3D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490A81829868E96B67BF2E6D16A4D9DA /* Pods-iOSMultiChat_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSMultiChat_Tests/Pods-iOSMultiChat_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSMultiChat_Tests/Pods-iOSMultiChat_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75784C882FC51A0D9DAFDEE582E093CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E32C9D982304C5958589C7F0AB51BE9 /* Pods-iOSMultiChat_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSMultiChat_Example/Pods-iOSMultiChat_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSMultiChat_Example/Pods-iOSMultiChat_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87A4F5FE6159CC0E9D7C7EEFD3640DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72768B627B3D7BC854BA1F0AEE227A3A /* iOSMultiChat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSMultiChat/iOSMultiChat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSMultiChat/iOSMultiChat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSMultiChat/iOSMultiChat.modulemap";
+				PRODUCT_MODULE_NAME = iOSMultiChat;
+				PRODUCT_NAME = iOSMultiChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F4F1444D66ADE7822A10F8890E83064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62821DC69E35EE1325FDBCD66F37C86 /* Pods-iOSMultiChat_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSMultiChat_Example/Pods-iOSMultiChat_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSMultiChat_Example/Pods-iOSMultiChat_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADD302E5112A2567FDB3F6B483BC2789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4C7B3C548535C975E3A5D748052878 /* Pods-iOSMultiChat_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSMultiChat_Tests/Pods-iOSMultiChat_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSMultiChat_Tests/Pods-iOSMultiChat_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9F5A471F1738B526DB7C46F48C30222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72768B627B3D7BC854BA1F0AEE227A3A /* iOSMultiChat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSMultiChat/iOSMultiChat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSMultiChat/iOSMultiChat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSMultiChat/iOSMultiChat.modulemap";
+				PRODUCT_MODULE_NAME = iOSMultiChat;
+				PRODUCT_NAME = iOSMultiChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F77533DEEC7284E98D623ABF16A07F /* Build configuration list for PBXNativeTarget "iOSMultiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A4F5FE6159CC0E9D7C7EEFD3640DE5 /* Debug */,
+				B9F5A471F1738B526DB7C46F48C30222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */,
+				6A949A208667F02694AF29D5DCC8D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5FA62CA16987DDD1260CC1ED20C14D /* Build configuration list for PBXNativeTarget "Pods-iOSMultiChat_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD302E5112A2567FDB3F6B483BC2789 /* Debug */,
+				289483896F371E92D2BB37DC5B27A3D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC846D46588DB70896BA4CAD87AD6AEC /* Build configuration list for PBXNativeTarget "Pods-iOSMultiChat_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75784C882FC51A0D9DAFDEE582E093CB /* Debug */,
+				9F4F1444D66ADE7822A10F8890E83064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

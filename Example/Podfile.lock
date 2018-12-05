@@ -1,0 +1,16 @@
+PODS:
+  - iOSMultiChat (0.1.0)
+
+DEPENDENCIES:
+  - iOSMultiChat (from `../`)
+
+EXTERNAL SOURCES:
+  iOSMultiChat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSMultiChat: 856ab5ce97c8341cbbf6270ecc3fba99b3cb344c
+
+PODFILE CHECKSUM: 92e89d99f8d7f3993de0c421a5c6a44b266a2fed
+
+COCOAPODS: 1.6.0.beta.2
